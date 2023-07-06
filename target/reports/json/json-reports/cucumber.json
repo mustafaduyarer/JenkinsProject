@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-06T14:42:08.342Z",
+        "line": 3,
+        "name": "US",
+        "description": "",
+        "id": ";us",
+        "after": [
+          {
+            "result": {
+              "duration": 1127947000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30966628000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user sayafaya gider",
+            "match": {
+              "location": "stepdefinitions.US_013.userSayafayaGider()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_013.feature",
+    "tags": []
+  }
+]
